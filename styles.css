@@ -1,0 +1,208 @@
+/*Whole html*/
+*{
+    font-family: "Salsa", cursive;
+}
+/*Whole html*/
+
+/*Navagation*/
+.nav{
+    text-align: right;
+    margin-right: 1em;
+    margin-top: 0.7em;
+}
+
+.nav a{
+    font-size: 0.8em;
+}
+
+.nav a{
+    color: dimgray;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-right: 0.45em;
+}
+
+.nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.login{
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 640px){
+    .nav{
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .nav a{
+        font-size: 0.8em;
+        color: cadetblue;
+    }
+    
+    .login{
+        font-size: 0.8em;
+        padding: 3px 6px 3px 6px;
+    }
+}
+/*Responsive*/
+
+/*Navigation*/
+
+/*Font awesome navigation*/
+i.fas{
+    font-size: 1.2em;
+}
+/*Font awesome navigation*/
+
+/*Logo*/
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    width: 20%;
+    height: 20%;
+}
+/*Logo*/
+
+/*Searchbox*/
+.searchtextbox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 20px;
+    font-size: 1.5em;
+    padding: 18px 7px;
+}
+/*Searchbox*/
+
+/*Search and feeling lucky buttons*/
+.buttons{
+    display: block;
+    text-align: center;
+}
+.googlesearch , .feelinglucky{
+    color: #757575;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    width: 10vw;
+    height: 2.5vw;
+    border: none;
+    margin: 10px;
+}
+
+.googlesearch:hover , .feelinglucky:hover{
+    font-weight: bold;
+    border: 1px solid #757575;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 640px){
+    .i fas{
+        font-size: 0.8em;
+    }
+    
+    .logo{
+        width: 40%;
+        height: 30%;
+        margin-top: 30vw;
+    }
+    
+    .searchtextbox{
+        width: 90%;
+        height: 5px;
+        font-size: 1.2em;
+    }
+    
+    .googlesearch , .feelinglucky{
+        width: 27vw;
+        height: 6vw;
+        font-size: 0.8em;
+/*        display: none;*/
+    }
+}
+/*Responsive*/
+
+/*Search adn feeling lucky buttons*/
+
+/*Google offer language*/
+.offerlang{
+    text-align: center;
+}
+
+.trad , .simp{
+    color: #1a0dab;
+    margin: 5px;
+}
+
+.trad:hover , .simp:hover{
+    text-decoration: underline;
+}
+/*Responsive*/
+@media only screen and (max-width: 640px){
+    .offerlang, .trad, .simp{
+        font-size: 0.8em;
+    }
+}
+/*Responsive*/
+/*Google offer language*/
+
+/*Footer*/
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border-top: 1px solid #999999;
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: #5f6368;
+/*
+    transition-property: background, color;
+    transition-duration: 3s, 2s;
+    transition-timing-function: linear, ease;
+*/
+}
+
+.footerleft{
+    margin-left: 10px;
+}
+
+.footerright{
+    position: fixed;
+    right: 10px;
+}
+
+.footerleft a , .footerright a{
+    font-size: 0.9em;
+    color: #757575;
+    margin: 5px;
+}
+
+.footerleft a:hover , .footerright a:hover{
+    text-decoration: underline;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 640px){
+    footer{
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+    }
+    
+    .footerleft a, .footerright a{
+        font-size: 0.8em;
+        margin: 2px;
+    }
+}
+/*Responsive*/
+/*Footer*/
